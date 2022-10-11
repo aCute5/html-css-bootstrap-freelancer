@@ -17,8 +17,8 @@
 
 }
 .header img{
-    min-width: 10%;
-    max-width: 25%;
+    min-width: 100px;
+    max-width: 200px;
 }    
 
 .whiteline{
@@ -60,7 +60,7 @@
     color: white;
     min-height: 200px;
 }
-.footer i{
+i{
     font-size: 30px;
 }
 .copyright{
