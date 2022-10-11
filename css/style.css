@@ -1,0 +1,68 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.header{
+    background-color: rgb(26, 188, 156);
+    min-height: 800px;
+    color: white;
+    font-size: 14px;
+}
+.header img{
+    min-width: 10%;
+    max-width: 20%;
+}    
+
+.whiteline{
+    border: 1px solid white;
+    width: 100%;
+}
+.blackline{
+    border: 1px solid rgb(0, 0, 0);
+    width: 100%;
+}
+.white-section{
+    background-color: rgb(251, 255, 254);
+    min-height: 500px;
+    color: rgb(0, 0, 0);
+    font-size: 14px;
+}
+.white-section img{
+    width: 100%;
+} 
+.about{
+    background-color: rgb(26, 188, 156);
+    color: white;
+    font-size: 14px;
+    margin-top:5rem;
+    min-height: 500px;
+}
+#download{
+    color: white;
+    border: 1px solid white;
+    text-decoration: none;
+    padding: .5rem;
+    margin: .5rem;
+}
+.form{
+    font-size: 20px;
+    border-bottom: 1px solid grey;
+}
+.footer{
+    background-color: rgb(58, 84, 109);
+    height: 20vh;
+    color: white;
+}
+.footer i{
+    font-size: 30px;
+}
+.copyright{
+    background-color: rgb(44, 62, 80);
+    height: 5vh;
+    color: white;
+}
+
+    
+
