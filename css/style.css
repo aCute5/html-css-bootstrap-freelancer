@@ -5,9 +5,46 @@ body{
     background-color: rgb(26, 188, 156);
     
 }    
-.nav{
+.nav_{
     background-color: rgb(44, 62, 80);
     height: 3rem;
+    color: white;
+}
+.nav_ a,
+.hamburger,
+.navbar-toggler-icon{
+    color: white;
+}
+.hamburger{
+    
+}
+.cards{
+    position: relative;
+}
+.cards a{
+    text-decoration: none;
+}
+.cards :hover img{
+    filter: drop-shadow(16px 16px 20px rgb(26,188,156)) invert(100%);
+}
+.cards i{
+    display: none;
+    /* color: white; */
+    font-size: 100px;
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: -270%;
+    color: white;
+    
+}       
+.cards :hover i{
+    display: block;
+}    
+
+
+._btn{
+    background-color:rgb(26, 188, 156); 
 }
 .img-profile{
     display: inline-block;
@@ -60,6 +97,10 @@ i{
     background-color: rgb(44, 62, 80);
     height: 5vh;
     color: white;
+}
+.btn-send{
+    background-color:rgb(26, 188, 156);
+    border: none;
 }
 
     
