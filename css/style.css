@@ -1,23 +1,18 @@
 body{
     font-family: 'Roboto', sans-serif;
 }
+header{
+    background-color: rgb(44, 62, 80);
+    
+}
 .header{
     background-color: rgb(26, 188, 156);
-    
-}    
-.nav_{
-    background-color: rgb(44, 62, 80);
-    height: 3rem;
+}
+
+.nav a{
     color: white;
 }
-.nav_ a,
-.hamburger,
-.navbar-toggler-icon{
-    color: white;
-}
-.hamburger{
-    
-}
+
 .cards{
     position: relative;
 }
