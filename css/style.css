@@ -1,28 +1,21 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+body{
+    font-family: 'Roboto', sans-serif;
 }
-
 .header{
     background-color: rgb(26, 188, 156);
-    color: white;
-    font-size: 14px;
-    /* min-height: 600px; */
-}
-.nav{
-    min-height: 80px;
-    background-color: rgb(44, 62, 80);
-    color: white;
-
-}
-.header img{
-    min-width: 100px;
-    max-width: 200px;
+    
 }    
-
+.nav{
+    background-color: rgb(44, 62, 80);
+    height: 3rem;
+}
+.img-profile{
+    display: inline-block;
+    height: 100px;
+} 
 .whiteline{
     border: 1px solid white;
+    display: inline-block;
     width: 100%;
 }
 .blackline{
